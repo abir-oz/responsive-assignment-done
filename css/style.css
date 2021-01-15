@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap');
+
+
+/********************************|
+|############# Main #############|
+*********************************/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #363958;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+}
+
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    
+    letter-spacing: 1px;
+}
+
+h4{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h5  {
+    font-size:24px;
+    font-weight: 700;
+}
+
+p{
+    font-size:16px;
+    color: #3E3E3E;
+}
+
+.buy-btn {
+    font-size: 14px;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+    text-decoration: none;
+    background-image: -webkit-linear-gradient(#A4BC46, #85A019);
+}
+
+.buy-btn .fas{
+    padding-right: 8px;
+}
+
+
+
+
+
+
+/********************************|
+1. Site Header ##################|
+*********************************/
+
+.site-header {
+
+    background-color: #FFFBF0;
+    background-image: url('../icons/top.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 180px;
+
+}
+
+
+.site-header nav {
+    font-size: 16px;
+    font-weight: 500;
+    /* color: #000 !important; */
+
+
+}
+
+.site-header .banner-text{
+    margin: 0 auto;
+}
+
+
+.site-header .banner-img img {
+
+    height: 0 auto;
+
+    max-width: 70%;
+    
+}
+
+
+
+/********************************|
+|2. Produts ########################|
+*********************************/
+
+ 
+ .products .card-img-top{
+   
+    margin: 0 auto;
+    object-fit: contain;
+    
+}
+
+
+.cutom-card-bg{
+    background-color: #F1F1F1;
+}
+
+ .cutom-radius{
+    border-radius: 18px;
+}
+
+.jacket-card-footer{
+    background-color: #fff;
+    border: 0;
+}
+
+.jacket-price{
+    color: #FABE4C;
+}
+
+
+/********************************|
+|3. Footer ########################|
+*********************************/
+
+
+
+.contact-us{
+    background-color: #FFFBF0;
+}
+
+.contact-us label{
+    font-size:24px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+
+.contact-us input,.contact-us textarea{
+    font-size: 16px;
+    padding: 0.8rem;
+    border-radius:0 ;
+}
+
+.custom-btn {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 0;
+    color: #fff;
+    background-image: -webkit-linear-gradient(#A4BC46, #85A019);
+}
