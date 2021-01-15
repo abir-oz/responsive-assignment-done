@@ -5,6 +5,14 @@
 |############# Main #############|
 *********************************/
 
+@media screen and (max-width: 340px) {
+   .navbar-brand img{
+    height: 20px!important;
+   }
+   
+    
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #363958;
